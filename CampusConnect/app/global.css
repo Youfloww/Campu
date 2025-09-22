@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:wght@400;700&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', 'Nunito', sans-serif;
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(135deg, #6C47FF 0%, #00E6D8 100%);
+  transition: background 0.5s;
+}
+
+.dark body {
+  background: linear-gradient(135deg, #232946 0%, #6C47FF 100%);
+}
+
+.glass {
+  background: rgba(255,255,255,0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  border-radius: 24px;
+  border: 1px solid rgba(255,255,255,0.18);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100,100,150,0.25);
+  border-radius: 8px;
+}
